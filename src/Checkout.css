@@ -1,0 +1,51 @@
+.checkout {
+  display: flex;
+  background-color: white;
+}
+
+.checkout__title {
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid rgb(191, 188, 188);
+}
+
+.checkout__left {
+  flex: 1;
+}
+
+.chcekout__right {
+  width: 30%;
+  margin-top: 10px;
+  height: 100%;
+  border-radius: 5%;
+  justify-content: center;
+  background-color: rgb(231, 228, 225);
+}
+
+.checkout__gift {
+  margin-top: 10px;
+}
+.checkout__gift > input {
+  margin-right: 5px;
+}
+
+.checkout__card {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout__ads {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.checkout__btn {
+  border: none;
+  width: 100%;
+  background-color: chocolate;
+  color: white;
+  margin-top: 10px;
+  padding: 5px;
+}
